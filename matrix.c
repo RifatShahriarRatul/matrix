@@ -54,4 +54,15 @@ int main()
         }
         printf(" |\n");
     }
+    printf("\n Matrix C {Matrix A + Matrix B}:\n");
+    printf("\n");
+    for(i=0; i<m_2[0]; i++)
+    {
+        printf("| ");
+        for(j=0; j<m_2[1]; j++)
+        {
+            printf(" %d  ", matA[i][j]+matB[i][j]);
+        }
+        printf(" |\n");
+    }
 }
